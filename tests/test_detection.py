@@ -1,7 +1,6 @@
 import os
 import pytest
 import numpy as np
-import matplotlib.pyplot as plt
 import astropy.units as u
 import astropy.coordinates as coord
 import agama
