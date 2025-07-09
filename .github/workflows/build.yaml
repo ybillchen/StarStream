@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+      - name: Install prerequisites
+        run: |
+          pip install setuptools wheel numpy
       - name: Install agama
         run: |
           pip install --no-build-isolation agama
