@@ -20,7 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install setuptools wheel numpy
-          pip install --no-build-isolation --build-option=--yes agama
+          pip install --no-build-isolation --config-settings --build-option=--yes agama
       - name: Build package
         run: |
           pip install -e .
