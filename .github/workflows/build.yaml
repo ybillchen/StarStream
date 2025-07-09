@@ -16,14 +16,21 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
+      # - name: Install dependencies
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y libgsl-dev libeigen3-dev cmake g++ python3-dev
+      #     export CPLUS_INCLUDE_PATH=/usr/include/eigen3
+      #     python -m pip install --upgrade pip
+      #     pip install setuptools wheel numpy cvxopt unsio
+      #     pip install --no-build-isolation agama
+      - name: Install AGAMA
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libgsl-dev libeigen3-dev cmake g++ python3-dev
-          export CPLUS_INCLUDE_PATH=/usr/include/eigen3
           python -m pip install --upgrade pip
-          pip install setuptools wheel numpy cvxopt unsio
-          pip install --no-build-isolation agama
+          git clone https://github.com/GalacticDynamics-Oxford/Agama.git
+          cd Agama
+          python setup.py install --user --assume-yes
+          cd ..
       - name: Build package
         run: |
           pip install -e .
