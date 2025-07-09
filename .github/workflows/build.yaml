@@ -19,12 +19,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-      - name: Install numpy
-        run: |
-          pip install numpy
       - name: Install agama
         run: |
-          pip install agama
+          pip install --no-build-isolation agama
       - name: Build package
         run: |
           pip install -e .
