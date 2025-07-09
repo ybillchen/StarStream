@@ -28,7 +28,7 @@ jobs:
           pip install setuptools wheel numpy
       - name: Install agama
         run: |
-          pip install --use-pep517 --no-build-isolation agama
+          pip install --no-build-isolation agama
       - name: Build package
         run: |
           pip install -e .
