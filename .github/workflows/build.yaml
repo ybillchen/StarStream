@@ -21,7 +21,10 @@ jobs:
           python -m pip install --upgrade pip
       - name: Install numpy
         run: |
-          pip install numpy==1.26
+          pip install numpy
+      - name: Install agama
+        run: |
+          pip install agama
       - name: Build package
         run: |
           pip install -e .
