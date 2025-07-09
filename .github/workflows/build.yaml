@@ -18,9 +18,11 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
+          sudo apt-get update
+          sudo apt-get install -y libgsl-dev libeigen3-dev cmake g++ python3-dev
           python -m pip install --upgrade pip
-          pip install setuptools wheel numpy
-          pip install --no-build-isolation --config-settings --build-option=--yes agama
+          pip install setuptools wheel numpy cvxopt
+          pip install --no-build-isolation agama
       - name: Build package
         run: |
           pip install -e .
