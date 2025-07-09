@@ -27,6 +27,7 @@ jobs:
       - name: Install AGAMA
         run: |
           python -m pip install --upgrade pip
+          pip install setuptools wheel numpy
           git clone https://github.com/GalacticDynamics-Oxford/Agama.git
           cd Agama
           python setup.py install --user --assume-yes
