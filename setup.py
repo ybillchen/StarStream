@@ -21,7 +21,6 @@ setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     install_requires = ["numpy", "scipy", "astropy", "agama"],
-    python_requires = ">=3.9",
     classifiers = [
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",
