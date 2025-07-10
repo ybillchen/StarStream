@@ -32,8 +32,6 @@ jobs:
       - name: Build package
         run: |
           pip install -e .
-          pip list
-          python -c "import StarStream"
       - name: Run tests
         run: |
           pip install pytest
