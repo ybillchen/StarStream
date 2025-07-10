@@ -13,12 +13,13 @@ The code is open source under a [BSD 3-Clause License](LICENSE), which allows yo
 
 ## Install
 
-We have tested `StarStream` on `python >= 3.9`. However, lower versions may also work. The prerequisites of this package are
+We have tested `StarStream` on `3.9 <= python <= 3.11`. However, lower or higher versions may also work. The prerequisites of this package are
 ```
 numpy
 scipy
 astropy
 agama
+pytest
 ```
 
 To download the packge, `git clone` the source code from [GitHub](https://github.com/ybillchen/StarStream):
