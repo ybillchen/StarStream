@@ -36,10 +36,6 @@ To check if the package is installed correctly, you may run the tests using `pyt
 ```shell
 $ pytest
 ```
-or
-```shell
-$ pytest tests
-```
 
 ## Usage
 
