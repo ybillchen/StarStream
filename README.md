@@ -19,7 +19,6 @@ numpy
 scipy
 astropy
 agama
-pytest
 ```
 
 To download the packge, `git clone` the source code from [GitHub](https://github.com/ybillchen/StarStream):
@@ -32,6 +31,15 @@ $ cd StarStream/
 $ pip install -e .
 ```
 The `-e` command allows you to make changes to the code.
+
+To check if the package is installed correctly, you may run the tests using `pytest` (make sure it's installed)
+```shell
+$ pytest
+```
+or
+```shell
+$ pytest tests
+```
 
 ## Usage
 

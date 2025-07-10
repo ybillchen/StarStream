@@ -20,7 +20,7 @@ setup(
     description = "An automatic detection algorithm for stellar streams.",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    install_requires = ["numpy", "scipy", "astropy", "agama", "pytest"],
+    install_requires = ["numpy", "scipy", "astropy", "agama"],
     python_requires = ">=3.9",
     classifiers = [
         "Programming Language :: Python :: 3",
