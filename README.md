@@ -2,14 +2,13 @@
 
 [![version](https://img.shields.io/badge/version-0.1-blue.svg)](https://github.com/ybillchen/StarStream)
 [![license](https://img.shields.io/github/license/ybillchen/StarStream)](LICENSE)
-[![ADS](https://img.shields.io/badge/ADS-2025xxxxx-blue)](#)
-[![arXiv](https://img.shields.io/badge/arXiv-25xx.xxxxx-green)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.14929-blue)](https://arxiv.org/abs/2510.14929)
 
 An automatic detection algorithm for stellar streams using a physics-inspired stream model.
 
 The code is open source under a [BSD 3-Clause License](LICENSE), which allows you to redistribute and modify the code with moderate limitations. If you use this code for a publication, we kindly request you to cite the following original paper.
 
-- Y. Chen, O. Y. Gnedin, A. M. Price-Whelan, & C. Holm-Hansen (2025) *StarStream: Automatic detection algorithm for stellar streams*. [arXiv:25xx.xxxxx](https://arxiv.org/abs/25xx.xxxxx), [ADS link](#)
+- Y. Chen, O. Y. Gnedin, A. M. Price-Whelan, & C. Holm-Hansen (2025) *StarStream: Automatic detection algorithm for stellar streams*. [arXiv:2510.14929](https://arxiv.org/abs/2510.14929), [ADS link](https://ui.adsabs.harvard.edu/abs/arXiv:2510.14929)
 
 ## Install
 
