@@ -40,6 +40,10 @@ $ pytest
 
 We provide [example notebooks](examples/) to demonstrate how to use apply this method to a mock dataset similar to *Gaia* DR3.
 
+### Publications using StarStream
+
+- Y. Chen, O. Y. Gnedin, and A. M. Price-Whelan (2025) *StarStream on Gaia: Stream discovery and mass loss rate of globular clusters* [arXiv:2510.14924](https://arxiv.org/abs/2510.14924), [ADS link](https://ui.adsabs.harvard.edu/abs/arXiv:2510.14924)
+
 
 ## Contribute
 
